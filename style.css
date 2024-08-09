@@ -76,7 +76,7 @@ header {
     width: 6vw;
     border: 0px;
     padding: 6px 24px;
-    border-radius: 5px;
+    border-radius: 0.25vw;
     font-weight: 700;
     font-size: 1rem;
 }
@@ -127,7 +127,7 @@ h2 {
     border: 3px solid #3882F6;
     width: 10vw;
     height: 10vw;
-    border-radius: 10%;
+    border-radius: 1vw;
 }
 
 .info-image-label {
@@ -139,7 +139,7 @@ h2 {
 
 .quote-section {
     background-color: #e5e7eb;
-    padding: 10vw 30vw;
+    padding: 5vw 30vw;
     margin: 5vw 0;
 }
 
@@ -157,9 +157,44 @@ h2 {
     font-size: 24px;
 }
 
+/* ------------------------------------------------------finished quote section------------------------------------------------------*/
+
+
 .call-to-action {
     background-color: #3882F6;
     color: white;
+    padding: 3vw 6vw;
+    margin: 5vw 20vw;
+    border-radius: 0.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #F9faf8;
+}
+
+.call-button {
+    box-sizing: content-box;
+    background-color: #3882F6;
+    border: solid 1px #F9faf8;
+    width: 4vw;
+    height: fit-content;
+    padding: 0.25vw 1.5vw;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.call-button a {
+    text-decoration: none;
+    color: #e5e7eb;
 }
 
 footer {

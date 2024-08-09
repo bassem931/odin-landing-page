@@ -73,9 +73,9 @@ header {
 .sign-up-button {
     background-color: #3882F6;
     color: #e5e7eb;
-    width: 5vw;
+    width: 6vw;
     border: 0px;
-    padding: 6px 18px;
+    padding: 6px 24px;
     border-radius: 5px;
     font-weight: 700;
     font-size: 1rem;
@@ -93,6 +93,9 @@ header {
     text-align: center;
     color: #F9faf8;
 }
+
+/* ---------------------------------------------------------finished header---------------------------------------------------------*/
+
 
 h2 {
     font-size: 36px;

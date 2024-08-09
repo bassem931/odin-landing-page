@@ -86,8 +86,12 @@ header {
 }
 
 .image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 30vw;
     height: auto;
+    line-height: 1rem;
     background-color: #666666;
     flex-shrink: 1;
     text-align: center;
@@ -197,7 +201,15 @@ h2 {
     color: #e5e7eb;
 }
 
+/* --------------------------------------------------finished call to action--------------------------------------------------*/
+
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    height: 10vh;
     background-color: #1F2937;
     color: #F9faf8;
 }

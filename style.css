@@ -96,11 +96,31 @@ header {
 
 /* ---------------------------------------------------------finished header---------------------------------------------------------*/
 
-
 h2 {
     font-size: 36px;
     font-size: 900;
     color: #1F2937;
+    text-align: center;
+    margin: 3vw 0;
+}
+
+.info-flex-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15vw;
+    margin-bottom: 5vw;
+    gap: 4vw;
+}
+
+.info-card-cont {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1vw;
 }
 
 .info-image-placeholder {
@@ -112,21 +132,29 @@ h2 {
 
 .info-image-label {
     color: #585858;
+    width: 8vw;
 }
+
+/* ------------------------------------------------------finished info section------------------------------------------------------*/
 
 .quote-section {
     background-color: #e5e7eb;
+    padding: 10vw 30vw;
+    margin: 5vw 0;
 }
 
 .quote-text {
     font-size: 36px;
     font-style: italic;
+    font-weight: 300;
     color: #1F2937;
 }
 
 .quote-author {
     font-weight: 700;
     color: #1F2937;
+    text-align: right;
+    font-size: 24px;
 }
 
 .call-to-action {

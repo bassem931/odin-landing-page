@@ -1,103 +1,137 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-*{ 
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
-    font-family: lato,Roboto,Arial, Helvetica, sans-serif;
+a {
+    text-decoration: none;
 }
 
-header{
+body {
+    font-family: lato, Roboto, Arial, Helvetica, sans-serif;
+}
+
+header {
     background-color: #1F2937;
 }
 
-.nav-cont{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 1vw 15vw;;
+.nav-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 15vw;
 }
 
-.nav-links-cont{
+.nav-links-cont {
     display: flex;
     gap: 1vw;
     font-size: 20px;
 }
 
-a{
+.nav-links {
     text-decoration: none;
     color: #e5e7eb;
 }
 
-img{
-    color: #F9faf8;   
+.header-logo {
+    color: #F9faf8;
     font-weight: 700;
     font-size: 24px;
 }
 
-.main-header{
+/* ---------------------------------------------------------finished nav bar---------------------------------------------------------*/
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    padding: 6vw 15vw;
+    justify-content: space-between;
+}
+
+.header-content-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 20vw;
+}
+
+.main-header {
     color: #F9faf8;
     font-weight: 900;
     font-size: 48px;
 }
 
-.sub-text{
+.sub-text {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.sign-up-button{
-
+.sign-up-button {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    width: 5vw;
+    border: 0px;
+    padding: 6px 18px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1rem;
 }
 
-.image-placeholder{
-    width: 20vw;
-    height: 10vw;
-    background-color: #eee;
+.sign-up-button a {
+    color: #F9faf8;
 }
 
-h2{
+.image-placeholder {
+    width: 30vw;
+    height: auto;
+    background-color: #666666;
+    flex-shrink: 1;
+    text-align: center;
+    color: #F9faf8;
+}
+
+h2 {
     font-size: 36px;
     font-size: 900;
     color: #1F2937;
 }
 
-.info-image-placeholder{
+.info-image-placeholder {
     border: 3px solid #3882F6;
     width: 10vw;
     height: 10vw;
     border-radius: 10%;
 }
 
-.info-image-label{
+.info-image-label {
     color: #585858;
 }
 
-.quote-section{
+.quote-section {
     background-color: #e5e7eb;
 }
 
-.quote-text{
+.quote-text {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
 }
 
-.quote-author{
+.quote-author {
     font-weight: 700;
     color: #1F2937;
 }
 
-.call-to-action{
+.call-to-action {
     background-color: #3882F6;
     color: white;
 }
 
-footer{
+footer {
     background-color: #1F2937;
     color: #F9faf8;
 }
